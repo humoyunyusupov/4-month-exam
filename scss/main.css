@@ -1,0 +1,192 @@
+/* poppins-regular - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+  font-family: "Poppins";
+}
+
+.tel {
+  font-size: 10px;
+}
+.tel::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/mobile-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+}
+
+.location {
+  font-size: 10px;
+}
+.location::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 15px;
+  background-image: url("../images/location-icon.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 15px;
+}
+
+.navbar {
+  background: linear-gradient(90.05deg, #E47500 -5.66%, #DF7C14 115.63%);
+}
+
+.nav-item {
+  margin-right: 70px;
+}
+
+.home::before {
+  margin-right: 6px;
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 15px;
+  background-image: url("../images/Ellipse.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 15px;
+}
+
+.hero {
+  padding-top: 158px;
+  padding-bottom: 128px;
+  background-image: url("..//images/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 0px) calc(50% + 0px);
+}
+
+.hero-img {
+  width: 675px;
+  height: 590px;
+  background-image: url("..//images/mens-in-vr.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 0px) calc(50% + 0px);
+}
+
+.text-box {
+  width: auto;
+}
+
+.digital {
+  color: #FB9E3C;
+}
+
+.hero-title {
+  width: auto;
+  font-size: 50px;
+  line-height: 155.2%;
+}
+
+.hero-text {
+  margin-bottom: 50px;
+  line-height: 200%;
+}
+
+.contact {
+  background-color: #fff;
+  color: #E47500;
+}
+
+.hero-link {
+  background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+}
+
+.about-text-description {
+  font-size: 14px;
+}
+
+.about-text {
+  margin-bottom: 46px;
+}
+
+.circles {
+  display: none;
+  top: 1190px;
+  right: 355px;
+  width: 196px;
+  height: 154px;
+  background-image: url("../images/about-circles.svg");
+  background-repeat: no-repeat;
+  background-size: 196px 154px;
+}
+
+.about-img {
+  z-index: 1;
+}
+
+.about-title {
+  font-size: 25px;
+  line-height: 187.5%;
+}
+
+.service-text {
+  font-size: 16px;
+}
+
+.card-link {
+  color: #DF7C14;
+}
+.card-link::after {
+  margin-left: 6px;
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url("../images/orange-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+}
+
+.last-link {
+  background-color: #DF7C14;
+}
+
+@media only screen and (min-width: 1200px) {
+  .text-box {
+    width: 500px;
+  }
+  .about-text {
+    width: 500px;
+  }
+  .about-title {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+  }
+  .circles {
+    display: block;
+  }
+  .service-text {
+    width: 820px;
+  }
+}/*# sourceMappingURL=main.css.map */
